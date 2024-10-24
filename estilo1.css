@@ -1,0 +1,53 @@
+header{
+    width: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+#tex h1,p{
+    color: blueviolet;
+    align-items: center;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    
+    
+}
+nav a{
+    text-decoration: none;
+    color: blueviolet;
+
+}
+#icon a{
+    color: blueviolet;
+}
+#icon ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    
+    
+}
+#icon a:hover{
+    color: white;
+}
+nav a:hover{
+    color: white;
+}
